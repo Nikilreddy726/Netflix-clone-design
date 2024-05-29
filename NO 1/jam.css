@@ -1,0 +1,217 @@
+
+body{
+    background: url(head.jpg);
+    background-size: 1350px 660px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-family: 'Netflix Sans', Arial, sans-serif;
+  }
+
+.input  .emg:hover{
+    background-color: transparent;
+    border: 3px solid white;
+    
+  }
+.input  .st:hover{
+    background-color: transparent;
+    border: 3px solid white;
+  }
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+    width: 39%;
+    margin-top: 35px;
+    margin-right:200px;
+    position: relative;
+    z-index: 3;
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    z-index: 3;
+}
+.btn .eng{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.btn .eng:hover{
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.btn .sign{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(224, 16, 16) ;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    border: none;
+    
+    
+}
+.btn .eng{
+    margin-inline: 30px;
+    
+}
+.btn .sign{
+    margin-right: -150px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+main{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px,20px;
+}
+main h1{
+    font-size: 50px;
+    
+}
+main h3{
+    font-size: 30px;
+}
+main p{
+    font-size: 25px;
+}
+main .contain{
+    position: relative;
+    z-index: 2;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color:black;
+    text-align: center;
+    color: inherit;
+
+
+}
+.input button{
+    width: 200px;
+    height:68px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 9px;
+    
+}
+
+.input  .ts:hover{
+    background-color: transparent;
+    border: 3px solid white;
+  }
+main2 .side{
+    position: relative;
+    z-index: 2;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 46px;
+    padding:66px ;
+    border-top: 4px solid gray ;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 25px;
+}
+.first img{
+    width: 44%;
+
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 900px;
+    height: 85px;
+    background-color: rgb(10, 1, 12);
+    color: white;
+    font-size: 26px;
+    margin-left: 26%;
+    text-align: left;
+    display: block;
+    margin: auto;
+
+    
+}
+main3 .middler{
+    position: relative;
+    z-index: 2;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 53px;
+    flex-wrap: wrap;
+}
+.ram p{
+    text-align: center;
+    font-size: 20px;
+}
+main4 .foot{
+    position: relative;
+    z-index: 2;
+}
+main5 .last{
+    position: relative;
+    z-index: 2; 
+}
+.ender p{
+    font-size: 17px;
+    text-align: center;
+}
+.footer .calling {
+    order: 1;
+    flex: 1 1 100%;
+}
+.footer .list {
+    order: 2; 
+    display:flex 1 1 100%;
+}
+
+    
+
